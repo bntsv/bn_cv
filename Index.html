@@ -1,5 +1,6 @@
 <!DOCTYpE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,138 +8,284 @@
     <meta name="author" content="Boris Netsov">
     <title>CV</title>
     <link rel="icon" href="../images/icons/avataricon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            width: 61%;
+        }
+
+        .common {
+            /* border: 1px solid red; */
+            padding-left: 30%;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+        }
+
+        .name {
+            font-size: 3em;
+            padding-top: 0.7em;
+            margin-bottom: 0.5em;
+            font-weight: 700;
+        }
+
+        .divider {
+            border-bottom: 3px solid black;
+            padding-left: 8%;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            margin-bottom: 1em;
+            margin-top: 1em;
+            font-weight: 400;
+        }
+
+        div.item {
+            padding-bottom: 2em;
+        }
+
+        div.item>p,
+        .itemTitle {
+            font-size: 1.2em;
+            font-weight: 400;
+            padding-bottom: 10px;
+        }
+
+        .itemTitle {
+            font-weight: 700;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+
+        .years {
+            position: relative;
+            left: -8em;
+            font-size: 0.8em;
+            color: rgb(190, 190, 190);
+        }
+
+        .description,
+        .codeDescription {
+            font-size: 0.8em;
+            font-style: italic;
+            color: gray;
+        }
+
+        .location {
+            font-size: 1.2em;
+            line-height: 2em;
+        }
+
+        .languages {
+            line-height: 1.3em;
+        }
+
+        img,
+        .codeDescription {
+            text-align: justify;
+            width: 400px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .more {
+            font-size: 15px;
+        }
+
+        .mail {
+            /* position: relative;
+            left: 300px; */
+            font-size: 15px;
+            font-weight: 400;
+            color: rgb(179, 179, 179);
+        }
+        .end{
+            border-top: 3px solid black;
+            border-bottom: none;
+            margin-top: 20px;
+            padding-top: 20px;;
+            margin-bottom: 50px;
+        }
+    </style>
+
 </head>
+
 <body>
-    <h2 id="top">
-        <a href="../index.html" title="back to index"><i><b>index</b></i></a>
-    </h2>
-    <!-- contact -->
-    <h1>name lastname</h1>  
-    <p>
-        <em>email:</em>
-        <br>
-        <a href="https://www.google.com/intl/bg/gmail/about/#" title="mail" target="_blank">
-            mai
-        </a>
-        <br>
-        <em>
-            social:
-        </em>
-        <br>
-        <a href="https://bg-bg.facebook.com/" title="facebook" target="_blank">
-            facebook
-        </a>
-        <br>
-        <em>
-            phone:
-        </em>
-        <br>
-        <del>
-            <i>
-                0888888888
-            </i>
-        </del> 
-        <ins>
-            <i>
-                8000000000
-            </i>
-        </ins>
-    </p>
-        <hr>
-        <!-- motivation -->
-        <h2>personal statement</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident ea sed amet magni doloribus laboriosam rerum, debitis beatae quasi minus molestias illum nostrum adipisci cupiditate harum, est temporibus laborum?</p>
-        <q><i> Consectetur adipisicing elit. Culpa, sequi optio? Quae quas amet officiis pariatur. Error tempore ea perferendis dolorem, doloremque repellat debitis fuga placeat quod minima est repudiandae.</i></q>
-        <p>
-            <strong>Quos voluptates recusandae cumque.</strong>Provident 
-            <b>omnis</b>, non deserunt <b>neque modi</b> sed <b>necessitatibus</b> aut. Nostrum, voluptatum minus! <strong>Accusamus, tenetur doloremque.</strong>
-        </p>
-        <!-- упр. на ctrl+d>ctrl+c>ctrl+x>new tag>ctrl+v -->
-        <hr>
-        <!-- experience -->
-        <h2>work experience</h2>
-        <h3>Studio 1</h3>
-        <p>
-            <em>mm/yy - mm/yy</em>
-            <br><br>
-            <strong>
-                <em>architect</em>
-            </strong>
-            <br> 
-            workworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkwork
-            <sub>1</sub>
-            workworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkwork 
-            <br>
-            <small>
-                <sup>
-                    *krow
-                </sup>
-            </small>
-        </p>
-        <br>
-            <h3>Studio 2</h3>
-            <p>
-                <em>mm/yy - mm/yy</em>
-                <br><br>
-                <strong>
-                    <em>
-                        designer
-                    </em>
-                </strong>
-                <br> 
-                workworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkworkwork
-            </p>
-            <hr>
-            <!-- skills -->
-            <h2>knowledge</h2>
-            <pre>
-                
-                rhinoceros:       |||||||||||||||||
-                
-                autocad:          |||||||||||||
-                
-                revit:            ||||
-                
-                3dsmax(vray):     |||||||||
-                
-                sktechup:         |||||
-                
-                photoshop:        |||||||||||
-                
-                illustrator:      |||||||
-                
-                indesign:         ||||||
-                
-            </pre>
-            <hr>
-            <!-- education -->
-            <h2>education</h2>
-            <h4>uni 1</h4>
-            <p>
-                <em>
-                    <strong>
-                        M.Arch
-                    </strong>
-                </em>
+    <div class="name common">
+        <h1>boris netsov</h1>
+        <div class="mail">bnecov@gmail.com</div>
+    </div>
+
+    <div class="divider common">
+        <h2>2011-2021</h2>
+    </div>
+
+    <div class="work common">
+        <h3>experience:</h3>
+
+        <div class="item">
+            <div class="years">10.2018 current</div>
+            <p>Berkein Architects</p>
+            <div class="description">Architecture studio based in Ghent and Sofia led by belgian architect Geert
+                Berkein<br>
+                <span class="position">Design Team: Project Architect</span>
                 <br>
-                learnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearn
-            </p>
-            <h4>uni 2</h4>
-            <p>
-                <em>
-                    <strong>
-                        erasmus
-                    </strong>
-                </em>
+                <span class="location">Ghent, Belgium/ Sofia, Bulgaria</span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="years"> 01-07.2018 </div>
+            <p>Sigurd Larsen Design & Architecture</p>
+            <div class="description">Berlin based architecture and design studio led by danish architect and designer
+                Sigurd Larsen<br>
+                <span class="position">Intern</span>
                 <br>
-                learnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearnlearn
+                <span class="location">Berlin, Germany</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="education common">
+        <h3>education:</h3>
+
+        <div class="item">
+            <div class="years">2011-2017</div>
+            <p>University of Architecture, Civil Engeneering and Geodesy<br>(UACEG)</p>
+            <div class="description">Master of Architecture Degree<br>
+                <span class="location">Sofia, Bulgaria</span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="years">2014-2015</div>
+            <p>Politecnico di Milano</p>
+            <div class="description">ERASMUS exchange<br>
+                <span class="location">Milan, Italy</span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="years">2007-2011</div>
+            <p>Sofia High School of Mathematics</p>
+            <div class="description">secondary education<br>
+                <span class="location">Sofia, Bulgaria</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="skills common">
+        <h3>skillset:</h3>
+
+        <div class="item">
+            <!-- <div class="years">10.2018 current</div> -->
+            <p>design related software:</p>
+            <div class="description">
+                rhinoceros (with grasshopper and vray), <br>
+                adobe creative suite (illustrator, photoshop, inDesign), <br>
+                vectorworks, <br>
+                autodesk (autocad, 3dsMax (vray), revit), <br>
+                sketchup <br>
+            </div>
+        </div>
+        <div class="item">
+            <!-- <div class="years">10.2018 current</div> -->
+            <p>languages:</p>
+            <div class="description languages">
+                български (native speaker), <br>
+                english (Cambridge English: Advanced (CAE)), <br>
+                deutsch (Goethe-Zertifikat B2), <br>
+                <!-- <br> -->
+                javascript (TS, react)
+            </div>
+        </div>
+        <div class="item">
+            <!-- <div class="years">10.2018 current</div> -->
+            <p>interests&hobbies:</p>
+            <div class="description languages">
+                swimming, running, yoga, art, design, logic, pizza
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="divider common">
+        <h2> 03.2021-10.2021 coding experience</h2>
+    </div>
+
+    <div class="coding common">
+        <p class="codeDescription"><i>*projects still under development</i></p>
+
+        <div class="codeItem">
+            <div class="itemTitle">wordSoup</div>
+            <a href="https://bntsv.github.io/wordSearch/" target="_blank"><img src="./img/wordSoup.png" alt="wordSoup"
+                    style="padding-top: 20px; padding-bottom: 20px;"></a>
+            <p class="codeDescription">the idea here is to create a webpage that generates wordsearch puzzles. Users
+                will be able to define size and words to be used in the puzzle. No UX/UI is implemented yet, but the js
+                can fill in a set of words at randomly selected positions in an array (the puzzle). If a word cant fit
+                it is added in a skippedWords array (logged last in console). Upon page refresh new positions of the
+                words are generated. As part of the concept the title of the puzzle is always in the middle of the
+                array, which complicates the task a bit. <br>
+                <br>
+                <span class="more" style="font-style: normal; font-weight: 400; line-height: 3em;">more js
+                    expermients:</span> <br>
+                <a href="https://stackoverflow.com/questions/62165804/solve-this-interview-question-letter-soup-js" target="_blank">stackoverflow
+                    question</a> that interested me:<br>
+                <a href="https://github.com/bntsv/EXP/blob/main/closestTo.js" target="_blank">closestTo</a><br><br>
+                todoApp, developed as part of the JS-Advanced course at <a
+                    href="https://progressbg.net/" target="_blank">Progress</a><br>
+                <a href="https://github.com/bntsv/todoApp_vanillaJS" target="_blank">todoApp</a><br><br>
+                same todoApp, using React:<br>
+                <a href="https://github.com/bntsv/todo-app_with-cra" target="_blank">todoApp with React</a><br><br>
+                Some other tasks from the course:<br>
+                <a href="https://github.com/bntsv/JS_advanced-HW" target="_blank">JS-Advanced-HW</a>
+
             </p>
-    <br>
-    <h2>back to
-        <a href="#top" title="back to top"><i><b>top</b></i></a>
-    </h2>
-    <h2>
-        <a href="../index.html" title="back to index"><i><b>index</b></i></a>
-    </h2>     
+
+        </div>
+        <div class="codeItem">
+            <div class="itemTitle">gal.b.maps</div>
+            <a href="https://bntsv.github.io/maps_gb/" target="_blank"><img src="./img/galBMaps.png" alt="galbmaps"></a>
+            <p class="codeDescription">project for a friend of mine, who is busy making map prints in her spare time.
+                Originally is was part of my course project for the web design basics course at <a
+                    href="https://progressbg.net/" target="_blank">Progress</a>, but since my friend liked the design, we now want to
+                countinue further with the development. Some bugs need to be fixed, more content needs to be provided,
+                and work needs to be done on all of the components. </p><br><br>
+            <span class="more codeDescription" style="font-style: normal; font-weight: 400; line-height: 3em;">more
+                html/css expermients:</span> <br>
+
+        </div>
+        <div class="codeItem">
+            <div class="itemTitle">floatingMonkey</div>
+            <a href="https://bntsv.github.io/floatingMonkey/index.html" target="_blank"><img src="./img/floatingMonkey.png"
+                    alt="floatingMonkey"></a>
+            <!-- <p class="codeDescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea est amet blanditiis numquam. Tempora, qui ab dolor perferendis incidunt dolorem vero quos accusantium, quasi dignissimos et! Molestiae doloribus voluptas nemo.</p> -->
+        </div>
+        <div class="codeItem">
+            <div class="itemTitle">moodSwings</div>
+            <a href="https://bntsv.github.io/moodSwings/index.html#top" target="_blank"><img src="./img/moodSwings.png"
+                    alt="moodSwings"></a><br>
+            <p class="codeDescription">
+                <span class="more codeDescription" style="font-style: normal; font-weight: 400; line-height: 3em;">all
+                    tasks from WD course:</span><br>
+                <a href="https://bntsv.github.io/WD_basics_HW/index.html" target="_blank">wd-course-hw</a>
+            </p>
+        </div>
+    </div>
+
+    </div>
+    <div class="common end">
+        <h2>bnecov@gmail.com</h2>
+    </div>
 </body>
+
 </html>
