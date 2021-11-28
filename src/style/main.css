@@ -51,7 +51,7 @@ a:active {
 button{
     border: none;
     color: black;
-    letter-spacing: 0.25em;
+    /* letter-spacing: 0.25em; */
     background-color: transparent;
     cursor: pointer;
 }
@@ -135,9 +135,16 @@ button{
 
 .more{
     display: inline-block;
+    position: relative;
     font-size: 3em;
     text-shadow: 2px 2px rgb(190, 190, 190);
     transition: transform .5s ease-in-out;
+    /* background-color: red; */
+    width: 0.7em;
+    height: 0.7em;
+    line-height: 0.7em;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .moreChange {
