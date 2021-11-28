@@ -1,0 +1,169 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+header, footer, .cv, .codingModule, .codingIntro, .divider {
+    padding: 2em 2em 5em 7em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 5em;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin-top: 2em;
+}
+
+h2 {
+    margin: 1.5em 0;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: rgb(190, 190, 190);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(235, 235, 235);
+}
+
+a:active {
+    color: white;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media (min-width: 1024px){
+    img, p{
+        max-width: 60em;
+    }
+    .personal-description{
+        font-size: 1.2em;
+    }
+}
+@media (min-width: 300px) and (max-width: 900px) {
+    img, p{
+        max-width: 100%;
+    }
+}
+
+.personal-description {
+    padding-bottom: 3em;
+    text-align: justify;
+}
+
+.divider {
+    border-bottom: 0.2em solid black;
+    padding-bottom: 0.5em;
+    font-weight: 400;
+}
+
+.cvModule {
+    margin-bottom: 7em;
+}
+
+.item {
+    margin-bottom: 2em;
+}
+
+.left {
+    position: relative;
+    left: -7.5em;
+    max-width: 7em;
+    text-align: right;
+}
+
+.subTitle {
+    margin-bottom: 1em;
+}
+
+.info {
+    font-family: 'Crimson Pro', serif;
+    color: rgb(145, 145, 145);
+    font-weight: 200;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.codingIntro{
+    background-color: black;
+}
+.codingIntro>p, .codingTitle{
+    color: white;
+}
+
+.codingIntro>p{
+    margin-bottom: 5em;
+}
+
+.codingTitle {
+    font-size: 2em;
+    padding: 0em 3.5em;
+    padding-right: 1em;
+    position: relative;
+    top: -0.95em;
+}
+
+.btnMore {
+    max-width: max-content;
+}
+
+.more{
+    display: inline-block;
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px rgb(190, 190, 190);
+    transition: transform .5s ease-in-out;
+}
+
+.moreChange {
+    transform: rotate(405deg);
+}
+
+.emailDiv, .email {
+    max-height: 1.5em;
+    max-width: max-content;
+
+}
+
+.email:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 0.025em;
+}
+
+.tooltipText {
+    font-size: 0.8em;
+    top: -3em;
+    left: -6em;
+    max-width: max-content;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.emailDiv:hover .tooltipText {
+    visibility: visible;
+}
