@@ -50,6 +50,8 @@ a:active {
 
 button{
     border: none;
+    color: black;
+    letter-spacing: 0.25em;
     background-color: transparent;
     cursor: pointer;
 }
@@ -129,14 +131,11 @@ button{
 
 .btnMore {
     max-width: max-content;
-    letter-spacing: 0.25em;
 }
 
 .more{
     display: inline-block;
     font-size: 3em;
-    color: black;
-    /* letter-spacing: 2px; */
     text-shadow: 2px 2px rgb(190, 190, 190);
     transition: transform .5s ease-in-out;
 }
